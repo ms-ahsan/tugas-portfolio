@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta
+      name="description"
+      content="Portfolio  Pratama, web developer pemula yang fokus pada HTML semantik dan aksesibilitas."
+    />
+    <title>Pratama - Portfolio Web Developer</title>
+    <link rel="stylesheet" href="./css/styles.css"/>
+    
+  </head>
+  <body>
+    <a href="#konten">Lewati ke konten utama</a>
+      <header>
+      <p style="background-color: aqua;" class="name">Pratama</p>
+      <nav aria-label="Navigasi utama">
+        <ul>
+          <li>
+            <a href="index.html" aria-current="page">Beranda</a>
+          </li>
+          <li><a href="pages/about.html">Tentang</a></li>
+          <li><a href="pages/projects.html">Proyek</a></li>
+          <li><a href="pages/experience.html">Pengalaman</a></li>
+          <li><a href="pages/contact.html">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="konten">
+      <section aria-labelledby="hero-title">
+        <h1 id="hero-title">Halo, saya Pratama Lenkap</h1>
+        <p class="konten-hero">
+          Web developer pemula yang suka membangun halaman web yang
+          jelas, terstruktur, dan mudah diakses.
+        </p>
+        <p>
+          <a href="pages/projects.html">Lihat proyek saya</a> | CV PDF
+          akan ditambahkan sebelum portfolio dipublikasikan.
+        </p>
+      </section>
+      <section aria-labelledby="featured-title">
+        <h2 id="featured-title">Proyek Pilihan</h2>
+        <article>
+          <h3>Aplikasi Cuaca Sederhana</h3>
+          <p>
+            Halaman prakiraan cuaca statis dengan struktur HTML
+            semantik.
+          </p>
+          <p>
+            <a href="pages/project-cuaca.html"
+              >Baca detail proyek Aplikasi Cuaca</a
+            >
+          </p>
+        </article>
+        <article>
+          <h3>Katalog Toko Buku</h3>
+          <p>
+            Katalog produk dengan tabel harga dan form pemesanan
+            dasar.
+          </p>
+          <p>
+            <a href="pages/project-toko.html"
+              >Baca detail proyek Katalog Toko Buku</a
+            >
+          </p>
+        </article>
+      </section>
+      <section aria-labelledby="cta-title">
+        <h2 id="cta-title">Mari Berkolaborasi</h2>
+        <p>
+          Tertarik bekerja sama?
+          <a href="pages/contact.html">Hubungi saya</a>.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2026 Pratama</p>
+      <nav aria-label="Tautan sosial">
+        <ul>
+          <li>
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub (tab baru)</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn (tab baru)</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>
