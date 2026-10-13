@@ -8,6 +8,11 @@ p {
   color: orange;
 }
 
+h1 {
+  color: red;
+  font-size: 36px;
+}
+
 .konten-hero {
   color: yellow;
 }
